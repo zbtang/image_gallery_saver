@@ -173,6 +173,8 @@ public class SwiftImageGallerySaverPlugin: NSObject, FlutterPlugin {
             || filename.hasSuffix(".GIF")
             || filename.hasSuffix(".heic")
             || filename.hasSuffix(".HEIC")
+            || filename.hasSuffix(".webp")
+            || filename.hasSuffix(".WEBP")
     }
 }
 
